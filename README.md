@@ -6,7 +6,6 @@
 
 - **Welcome Page** – Simple, focused introduction screen
 - **Notebook-Themed UI** – Visually styled like a traditional notebook
-- **Template-Based Navigation** – Choose templates to organize your tasks
 - **Task Management** – Add, strike through (complete), and delete tasks seamlessly
 
 ## 📸 Preview
