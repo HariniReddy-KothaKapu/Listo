@@ -9,8 +9,14 @@
 - **Template-Based Navigation** – Choose templates to organize your tasks
 - **Task Management** – Add, strike through (complete), and delete tasks seamlessly
 
-![Welcome Page Preview](./listo-welcome.png)
-![To-Do Page Preview](./listo-todo.png)
+## 📸 Preview
+
+### 🖼️ Welcome Page
+![Welcome Page Preview](Listo-welcome.png)
+
+### 📝 To-Do List Page
+![To-Do Page Preview](Listo-todo.png)
+
 
 ## Why Use Listo?
 
