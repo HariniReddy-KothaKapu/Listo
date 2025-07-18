@@ -9,6 +9,9 @@
 - **Template-Based Navigation** – Choose templates to organize your tasks
 - **Task Management** – Add, strike through (complete), and delete tasks seamlessly
 
+![Welcome Page Preview](./listo-welcome.png)
+![To-Do Page Preview](./listo-todo.png)
+
 ## Why Use Listo?
 
 Unlike standard to-do list applications, Listo emphasizes both function and form. Its notebook-inspired aesthetic and minimal workflow make it suitable for users who value clarity and design in task management.
