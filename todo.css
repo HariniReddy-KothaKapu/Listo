@@ -1,0 +1,95 @@
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: #fce1cb; /* Soft pinkish peach */
+  text-align: center;
+  padding-top: 40px;
+  color: #333;
+}
+
+#todo-container {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 240px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+button.add-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #f78fb3; /* Light rose pink */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button.add-btn:hover {
+  background-color: #ec6aa5;
+}
+
+ul {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #fffafc;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  background-color: #f5f5f5;
+}
+
+li button.delete-btn {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-left: 15px;
+}
+
+li button.delete-btn:hover {
+  background-color: #e54848;
+}
+
+.header-box {
+  background-color: #ffe0e9;
+  padding: 20px;
+  border-radius: 15px;
+  width: 70%;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px dashed #ffa5b0;
+}
+
+.header-box h1 {
+  color: #6ECEDA;
+  font-size: 28px;
+  margin: 0;
+}
+

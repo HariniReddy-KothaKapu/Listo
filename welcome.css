@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  background: url('bg.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+#title {
+  font-size: 6rem;
+  color: rgb(81, 140, 165);
+  animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.input-wrapper {
+  margin-top: 20px;
+}
+
+.input-wrapper input {
+  width: 300px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
